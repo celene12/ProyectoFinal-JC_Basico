@@ -1,0 +1,44 @@
+.nosotros__img{
+    height: 500px;
+    width: 400px;
+}
+
+.nosotros__contenedor{
+    display: flex;
+    justify-content:space-evenly;
+} 
+
+.imagen-about-us{
+    width: 48%;
+}
+
+.nosotros__contenedor .nosotros__texto{
+    width: 48%;
+}
+
+.nosotros__texto h3{
+    margin-bottom: 15px;
+    font-family: var(--letra);
+}
+
+.nosotros__texto h3 span{
+    color: var(--gris);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.nosotros__texto p{
+    padding: 0px 0px 30px 30px;
+    font-weight: 300;
+    text-align: justify;
+
+}
+
+.portafolio{
+    background: var(--semiBlanco);
+}
