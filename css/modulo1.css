@@ -1,5 +1,7 @@
 @import "../css/index.css";
-
+@import "../css/modulo2.css";
+@import "../css/Nuestras-fotografias.css";
+@import"../css/Nuestras-guias-viaje.css";
 
 :root {
   --negro: black;
@@ -39,7 +41,14 @@ body{
     margin-bottom: 60px;
 }
 
+
 .gradient{
+    background: #1D2B64; 
+    background: -webkit-linear-gradient(to left, var(--colorRosaClaro), var(--colorAzul)); 
+    background: linear-gradient(to left, var(--colorRosaClaro),var(--colorAzul)); 
+}
+
+.gradient_port{
     background: #1D2B64; 
     background: -webkit-linear-gradient(to left, var(--colorRosaClaro), var(--colorAzul)), url(/img/inicio/portada.jpg); 
     background: linear-gradient(to left, var(--colorRosaClaro),var(--colorAzul)), url(/img/inicio/portada.jpg); 
