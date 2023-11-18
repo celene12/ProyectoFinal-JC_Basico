@@ -1,9 +1,9 @@
 .titulo2 {
     color: var(--negro);
     font-family: var(--letra);
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
-    margin-bottom: 10px
+    margin-bottom: 0.625rem;
 }
 
 .portafolio{
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 60px; 
+    margin-bottom: 3.75rem; 
 }
 
 .imagen{
@@ -25,11 +25,11 @@
 
 .imagen__port{
     width: 38%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     overflow: hidden;
     position: relative;
     cursor:pointer;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .imagen__port > img{
@@ -50,7 +50,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .imagen__hover > p{

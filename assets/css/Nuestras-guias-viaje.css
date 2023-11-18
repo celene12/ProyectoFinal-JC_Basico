@@ -7,27 +7,27 @@
     display: flex; 
     justify-content:space-evenly;
     flex-wrap: wrap;
-    padding: 10px;
-    margin: 20px;
-    margin-bottom: 20px;
+    padding: 0.625rem;
+    margin: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .clientes__individual{
     display:flex;
     width: 30%;
-    height: 300px;
+    height: 18.75rem;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     box-shadow: 0 0 6px 0 var(--sombra);
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 
 }
 
 .clientes__individual img{
-   width: 100px;
-   height: 100px;
+   width: 6.25rem;
+   height: 6.25rem;
    object-fit: cover;
    border: 3px solid var(--blanco) ;
    border-radius: 50%; 
@@ -40,7 +40,7 @@
 
 .clientes__individual > .clientes__texto p{
     font-weight: 300;
-    padding-top: 5px;
+    padding-top: 0.313rem;
     text-align: center;
 }
 

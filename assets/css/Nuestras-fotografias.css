@@ -1,7 +1,7 @@
 .foto{
     background: var(--semiBlanco);
-    margin-bottom: 60px;
-    border-radius: 10px;
+    margin-bottom: 3.75rem;
+    border-radius: 0.625rem;
     width: 100%;
 }
 
@@ -12,20 +12,20 @@
 
 .foto__imagen{
     display: flex;
-    width: 1000px;
-    height: 700px;
-    margin-bottom: 20px;
+    width: 62.5rem;
+    height: 43.75rem;
+    margin-bottom: 1.25rem;
     position: relative;
     box-shadow:  0 0 6px 0 var(--sombra);
-    border-radius: 10px; 
+    border-radius: 0.625rem; 
 }
 
 .foto__imagen > img {
-    width: 1000px;
+    width: 62.5rem;
     height: 100%;
     object-fit: cover;
     display: block;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .foto:hover .imagen__hover{
