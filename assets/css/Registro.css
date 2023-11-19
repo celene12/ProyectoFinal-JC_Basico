@@ -1,0 +1,100 @@
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: var(--blanco);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+
+.from__box{
+    width: 23.125rem;
+    height: 455px;
+    position: relative;
+    margin: 6% auto;
+    background: var(--gris);
+    padding: 0.313rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 10px 0 var(--sombra);
+    overflow: hidden;
+}
+
+.button__box{
+    width: 15rem;
+    margin: 1.875rem auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px var(--blanco);
+    border-radius: 1.875rem;
+}
+
+.toggle-btn{
+    padding: 0.625rem 1.375rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0rem;
+    outline: none;
+    position: relative;
+    color: var(--blanco);
+}
+
+#elegir{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 7.188rem;
+    height: 100%;
+    border-radius: 1.875rem;
+    transition: 0.10s;   
+}
+
+.grupos{
+    top: 7.5rem;
+    position: absolute;
+    width: 17.5rem;
+    transition: 0.8s;
+}
+
+.inputs{
+    width: 100%;
+    padding: 0.625rem 0;
+    margin: 0.313rem 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0.125rem solid var(--colorRosaClaro);
+    outline: none;
+    background: transparent;
+    color: var(--blanco);
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 0.625rem 1.875rem;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: 0px;
+    outline: none;
+    border-radius: 1.875rem;
+}
+
+.checkbox{
+    margin: 1.875rem 0.625rem 1.875rem 0;
+}
+
+span{
+  color: var(--colorRosa);
+  font-size: 0.75rem;
+  bottom: 4rem;
+  position: absolute;
+}
+
+#registro1{
+    left: 28.125rem;
+   
+}
+
+#InicioSesion{
+    left: 3.125rem;
+}
