@@ -86,6 +86,7 @@ body {
     padding: 0.313rem;
     border-radius: 0.313rem;
     border: 0.188rem solid var(--negro);
+    cursor: pointer;
 }
 
 .Nom_usuario {
@@ -120,6 +121,7 @@ nav {
     font-weight: bold;
     text-align: center;
     user-select: none;
+    cursor: pointer;
 }
 
 .menu__li {
