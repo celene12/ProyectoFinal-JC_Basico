@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="shortcut icon" href="/assets/img/inicio/icono3.jpg" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/modulo1.css">
+   
 </head>
+
 <body>
     <header class="header gradient_port">
         <div class="logo">
@@ -28,63 +31,67 @@
             </ul>
         </nav>
         <section class="header__texto">
-            <h1>Nombre</h1>
+            <h1>WorldWalk</h1>
             <h2>Ve y visita nuevos y fantasticos lugares </h2>
             <h4>Con nuestoros fantasticos fotografos y agencias de viajes</h4>
         </section>
        <span class="barra"></span>
     </header>
-   <div class="container">
-    <div class="from__box">
-        <div class="button__box">
-            <div id="elegir" class="gradient"> </div>  
-            <button type="button" class="toggle-btn" onclick="InicioSesion()">Iniciar Sesión</button>  
-            <button type="button" class="toggle-btn" onclick="registro1()">Registro</button>       
+    <div class="container">
+        <div class="from__box">
+            <div class="button__box">
+                <div id="elegir" class="gradient"> </div>
+                <button type="button" class="toggle-btn" onclick="InicioSesion()">Iniciar Sesión</button>
+                <button type="button" class="toggle-btn" onclick="registro1()">Registro</button>
+            </div>
+            <form id="registro1" class="grupos">
+                <input type="text" class="inputs" id="NomApe" placeholder="Nombre y Apellidos" required>
+                <input type="text" class="inputs" id="genero" placeholder="Genero" required>
+                <input type="email" class="inputs" id="Email_Registro" placeholder="Email" required>
+                <input type="password" class="inputs" placeholder="Contraseña" id="contrasena_registro" required>
+                <input type="checkbox" class="checkbox" id="Terminos" required><span>Acepto los terminos y
+                    condiciones</span>
+                <button type="submit" class="submit-btn gradient" id="sesion">Registrarse</button>
+            </form>
+            <form id="InicioSesion" class="grupos">
+                <input type="email" class="inputs" id="Email_Sesion" placeholder="Email" required>
+                <input type="password" class="inputs" placeholder="Contraseña" id="contrasena_sesion" required>
+                <input type="checkbox" class="checkbox" id="recordatorio"><span>Recordar Contraseña</span>
+                <button type="submit" class="submit-btn gradient">Acceder</button>
+            </form>
         </div>
-        <from id="registro1" class="grupos"> 
-            <input type="text" class="inputs" id="NomApe" placeholder="Nombre y Apellidos" required>
-            <input type="text" class="inputs" id="Genero" placeholder="Genero" required>
-            <input type="email" class="inputs" id="Email_Registro" placeholder="Email" required>
-            <input type="password" class="inputs" placeholder="Contraseña" id="contraseña_registro" required>
-            <input type="checkbox" class="checkbox" name="" id="Terminos" required><span>Acepto los terminos y condiciones</span>
-            <button type="submit" class="submit-btn gradient" id="sesion">Iniciar Sesión</button>
-        </from>
-        <from id="InicioSesion" class="grupos"> 
-            <input type="email" class="inputs" id="Email_Sesion" placeholder="Email" required>
-            <input type="password" class="inputs" placeholder="Contraseña" id="contraseña_sesion" required>
-            <input type="checkbox" class="checkbox" name="" id="recordatorio"><span>Recordar Contraseña</span>
-            <a href="/index.html"><button type="submit" class="submit-btn gradient">Acceder</button></a>
-        </from>
-    </div>
 
-    <footer>
-        <div class="contenedor__fooder">
-            <div class="contenedor__info">
-                <h4>Telefono</h4>
-                <p>1256537253</p>
+        <footer>
+            <div class="contenedor__fooder">
+                <div class="contenedor__info">
+                    <h4>Telefono</h4>
+                    <p>1256537253</p>
+                </div>
+                <div class="contenedor__info">
+                    <h4>Twitter</h4>
+                    <img src="../assets/img/inicio/twitter.png" alt="">
+                </div>
+                <div class="contenedor__info">
+                    <h4>Email</h4>
+                    <p>1256537253</p>
+                </div>
+                <div class="contenedor__info">
+                    <h4>Facebook</h4>
+                    <img src="../assets/img/inicio/facebook.png" alt="">
+                </div>
+                <div class="contenedor__info">
+                    <h4>Locacion</h4>
+                    <p>1256537253</p>
+                </div>
+                <div class="contenedor__info">
+                    <h4>Instagram</h4>
+                    <img src="../assets/img/inicio/instagram.png" alt="">
+                </div>
             </div>
-            <div class="contenedor__info">
-                <h4>Twitter</h4>
-                <img src="/assets/img/inicio/twitter.png" alt="">
-            </div>
-            <div class="contenedor__info">
-                <h4>Email</h4>
-                <p>1256537253</p>
-            </div>
-            <div class="contenedor__info">
-                <h4>Facebook</h4>
-                <img src="/assets/img/inicio/facebook.png" alt="">
-            </div>
-            <div class="contenedor__info">
-                <h4>Locacion</h4>
-                <p>1256537253</p>
-            </div>
-            <div class="contenedor__info">
-                <h4>Instagram</h4>
-                <img src="/assets/img/inicio/instagram.png" alt="">
-            </div>
-        </div>
-    </footer>
-    <script src="/assets/js/Registro.js"></script>
+        </footer>
+        <script src="./assets/js/Registro.js"></script>
+        <script src="/assets/js/registro_form.js"></script>
+        <script src="/assets/js/login.js"></script>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="header gradient_port">
         <div class="logo">
-           <img class="icono" src="/assets/img/inicio/logo.png" alt="">
+            <img class="icono" src="/assets/img/inicio/logo.png" alt="">
         </div>
         <div class="u_logeado">
-            <button class="cerrar gradient"><b>Cerrar Sesión</b></button>
+            <button class="cerrar gradient" id="logout"><b>Cerrar Sesión</b></button>
             <p class="Nom_usuario">Nom_Usuario</p>
         </div>
         <nav>
@@ -31,224 +33,249 @@
             </ul>
         </nav>
         <section class="header__texto">
-            <h1>Nombre</h1>
+            <h1>WorldWalk</h1>
             <h2>Ve y visita nuevos y fantasticos lugares </h2>
             <h4>Con nuestoros fantasticos fotografos y agencias de viajes</h4>
         </section>
-       <span class="barra"></span>
+        <span class="barra"></span>
     </header>
-<main>   
-    <section class="portafolio">
-        <div class="contenedor">
-            <h2 class="titulo">Los lugares más visitados</h2>
-            <div class="FotosLugares">
-                <div class="imagen__port">
-                    <h3 class="titulo2">Suiza</h3>
-                    <img src="/assets/img/Nuestras_guias de viaje/suiza.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate?</p>
+    <main>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Los lugares más visitados</h2>
+                <div class="FotosLugares">
+                    <div class="imagen__port">
+                        <h3 class="titulo2">Suiza</h3>
+                        <img src="/assets/img/Nuestras_guias de viaje/suiza.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>El encanto de Suiza radica no solo en sus paisajes, sino también en la calidez y
+                                hospitalidad de su gente.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="imagen__port">
-                    <h3 class="titulo2">Corea del sur</h3>
-                    <img src="/assets/img/Nuestras_guias de viaje/corea del sur.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate?</p>
+                    <div class="imagen__port">
+                        <h3 class="titulo2">Corea del sur</h3>
+                        <img src="/assets/img/Nuestras_guias de viaje/corea del sur.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Corea del Sur es una de las economías más grandes del mundo</p>
+                        </div>
                     </div>
-                </div>
-                <div class="imagen__port">
-                    <h3 class="titulo2">Francia</h3>
-                    <img src="/assets/img/Nuestras_guias de viaje/francia.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate?</p>
+                    <div class="imagen__port">
+                        <h3 class="titulo2">Francia</h3>
+                        <img src="/assets/img/Nuestras_guias de viaje/francia.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Francia es un país que destaca por tener una gran variedad de zonas que visitar, todas
+                                ellas muy distintas entre ellas.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="imagen__port">
-                    <h3 class="titulo2">Alemania</h3>
-                    <img src="/assets/img/Nuestras_guias de viaje/alemania.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate?</p>
+                    <div class="imagen__port">
+                        <h3 class="titulo2">Alemania</h3>
+                        <img src="/assets/img/Nuestras_guias de viaje/alemania.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Es el destino ideal para los amantes de la arquitectura, el arte, la música, la
+                                gastronomía y la naturaleza.</p>
+                        </div>
                     </div>
+
                 </div>
-    
+
+                <h2 class="titulo">Portafolio de guias turisticas</h2>
+                <div class="imagen">
+                    <div class="imagen__port">
+                        <img src="/assets/img/Nuestras_guias de viaje/guia_prima1.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p> es un destino turístico diverso y fascinante. Desde la majestuosidad de sus históricos
+                                castillos y palacios hasta la vibrante vida urbana de ciudades.</p>
+                            <br>
+                            <p>Nuestras guias de viajes</p>
+                        </div>
+                    </div>
+                    <div class="imagen__port">
+                        <img src="/assets/img/Nuestras_guias de viaje/guia_prima2.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Disfruta de estrechas callejuelas empedradas, llenas de tiendas boutique y restaurantes
+                                que sirven deliciosa cocina local. Explora la arquitectura histórica</p>
+                            <br>
+                            <p>Nuestras guias de viajes</p>
+                        </div>
+                    </div>
+                    <div class="imagen__port">
+                        <img src="/assets/img/Nuestras_guias de viaje/guia_prima3.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Es un tesoro turístico con encanto propio. Con su pintoresco puerto y casas de colores
+                                que se apiñan en las colinas, Procida ofrece una experiencia auténtica y relajada.</p>
+                            <br>
+                            <p>Nuestras guias de viajes</p>
+                        </div>
+                    </div>
+
+                    <div class="imagen__port">
+                        <img src="/assets/img/Nuestras_guias de viaje/guia_prima4.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Esta completa guía te sumerge en la rica y conmovedora experiencia de Semana Santa en
+                                diversos destinos, ofreciendo una mirada profunda a las celebraciones religiosas y a las
+                                actividades culturales que rodean esta época especial del año.</p>
+                            <br>
+                            <p>Nuestras guias de viajes</p>
+                        </div>
+                    </div>
+
+                    <div class="imagen__port">
+                        <img src="/assets/img/Nuestras_guias de viaje/guia1.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Praga, con su arquitectura gótica y barroca, sus calles empedradas y sus leyendas
+                                románticas, te cautivará desde el primer momento.</p>
+                            <br>
+                            <p>Nuestras guias de viajes</p>
+                        </div>
+                    </div>
+
+                    <div class="imagen__port">
+                        <img src="/assets/img/Nuestras_guias de viaje/guia2.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Prepárate para ser testigo de la resiliencia de una ciudad que ha renacido de sus propias
+                                cenizas, y que hoy en día se erige como un faro de creatividad, tolerancia y diversidad.
+                                Berlin te espera, listo para revelarte sus múltiples facetas.</p>
+                            <br>
+                            <p>Nuestras guias de viajes</p>
+                        </div>
+                    </div>
+
+                    <div class="imagen__port">
+                        <img src="/assets/img/Nuestras_guias de viaje/guia3.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Descubre los tesoros de Roma, desde el majestuoso Coliseo hasta la elegante Plaza de
+                                España. Esta guía te ofrece los mejores consejos para vivir tu viaje a Roma, con
+                                información práctica, mapas, itinerarios y recomendaciones personalizadas.</p>
+                            <br>
+                            <p>Nuestras guias de viajes</p>
+                        </div>
+                    </div>
+
+                    <div class="imagen__port">
+                        <img src="/assets/img/Nuestras_guias de viaje/guia4.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Hungría, con sus raíces que se entrelazan con la Europa medieval, te invita a un viaje en
+                                el tiempo. Desde las majestuosas fortalezas medievales hasta los vestigios de la
+                                ocupación otomana, cada rincón cuenta una historia que ha dado forma a la identidad de
+                                esta nación.</p>
+                            <br>
+                            <p>Nuestras guias de viajes</p>
+                        </div>
+                    </div>
+
+                    <div class="imagen__port">
+                        <img src="/assets/img/Nuestras_guias de viaje/guia5.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p> En esta guía de viaje, te embarcarás en un viaje fascinante a través de una tierra donde
+                                el pasado se encuentra con el presente de una manera asombrosa.</p>
+                            <br>
+                            <p>Nuestras guias de viajes</p>
+                        </div>
+                    </div>
+
+                    <div class="imagen__port">
+                        <img src="/assets/img/Nuestras_guias de viaje/guia6.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>La joya en la desembocadura del río Tajo, donde la historia, la cultura y la vitalidad
+                                contemporánea se entrelazan para crear una experiencia única. En esta guía de viaje, te
+                                invitamos a sumergirte en los callejones empedrados.</p>
+                            <br>
+                            <p>Nuestras guias de viajes</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <section class="clientes">
+                    <div class="contenedor">
+                        <h3 class="titulo2">comentarios de nuestros clientes</h3>
+                        <h2 class="titulo3">sobre los lugares visitados</h2>
+                        <div class="clientes__global">
+                            <div class="clientes__individual gradient">
+                                <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
+                                <div class="clientes__texto">
+                                    <h4>Anita09Paternina</h4>
+                                    <p>Las guías son muy completas, con información actualizada y práctica sobre los
+                                        destinos.</p>
+                                </div>
+                            </div>
+                            <div class="clientes__individual gradient">
+                                <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
+                                <div class="clientes__texto">
+                                    <h4>JuanBravo</h4>
+                                    <p>He comprado varias guías de viajes de esta empresa y me han sido muy útiles.</p>
+                                </div>
+                            </div>
+                            <div class="clientes__individual gradient">
+                                <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
+                                <div class="clientes__texto">
+                                    <h4>MariaDelvalle</h4>
+                                    <p> Me gustan mucho las recomendaciones de lugares, actividades, restaurantes y
+                                        hoteles que hacen.</p>
+                                </div>
+                            </div>
+                            <div class="clientes__individual gradient">
+                                <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
+                                <div class="clientes__texto">
+                                    <h4>PabloMarin</h4>
+                                    <p>Estoy muy decepcionado con la guía de viajes que compré de esta empresa.</p>
+                                </div>
+                            </div>
+                            <div class="clientes__individual gradient">
+                                <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
+                                <div class="clientes__texto">
+                                    <h4>LucianRuedo</h4>
+                                    <p>Esta empresa ofrece unas guías de viajes muy originales y divertidas.</p>
+                                </div>
+                            </div>
+                            <div class="clientes__individual gradient">
+                                <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
+                                <div class="clientes__texto">
+                                    <h4>MariaJose</h4>
+                                    <p>Las guías son muy interactivas y personalizadas, con cuestionarios, juegos, retos
+                                        y sorpresas.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
             </div>
 
-            <h2 class="titulo">Portafolio de guias turisticas</h2>
-            <div class="imagen">
-                <div class="imagen__port">
-                    <img src="/assets/img/Nuestras_guias de viaje/guia_prima1.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo consequuntur molestias, odit ducimus eos?</p>
-                        <br>
-                        <p>Nuestras guias de viajes</p>
-                      </div>
-                </div>
-                <div class="imagen__port">
-                     <img src="/assets/img/Nuestras_guias de viaje/guia_prima2.jpg" alt="">
-                     <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ullam est corporis dolores eveniet necessitatibus?</p>
-                        <br>
-                        <p>Nuestras guias de viajes</p>
-                     </div>
-                </div>
-                <div class="imagen__port">
-                    <img src="/assets/img/Nuestras_guias de viaje/guia_prima3.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore possimus ratione corrupti amet asperiores accusantium!.</p>
-                        <br>
-                        <p>Nuestras guias de viajes</p>
-                     </div>
-                </div>
-                              
-                <div class="imagen__port">
-                    <img src="/assets/img/Nuestras_guias de viaje/guia_prima4.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id odit voluptatem ea incidunt natus neque!</p>
-                        <br>
-                        <p>Nuestras guias de viajes</p>
-                     </div>
-                </div>
+        </section>
+    </main>
 
-                <div class="imagen__port">
-                    <img src="/assets/img/Nuestras_guias de viaje/guia1.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id odit voluptatem ea incidunt natus neque!</p>
-                        <br>
-                        <p>Nuestras guias de viajes</p>
-                     </div>
-                </div>
-
-                <div class="imagen__port">
-                    <img src="/assets/img/Nuestras_guias de viaje/guia2.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id odit voluptatem ea incidunt natus neque!</p>
-                        <br>
-                        <p>Nuestras guias de viajes</p>
-                     </div>
-                </div>
-
-                <div class="imagen__port">
-                    <img src="/assets/img/Nuestras_guias de viaje/guia3.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id odit voluptatem ea incidunt natus neque!</p>
-                        <br>
-                        <p>Nuestras guias de viajes</p>
-                     </div>
-                </div>
-
-                <div class="imagen__port">
-                    <img src="/assets/img/Nuestras_guias de viaje/guia4.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id odit voluptatem ea incidunt natus neque!</p>
-                        <br>
-                        <p>Nuestras guias de viajes</p>
-                     </div>
-                </div>
-
-                <div class="imagen__port">
-                    <img src="/assets/img/Nuestras_guias de viaje/guia5.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id odit voluptatem ea incidunt natus neque!</p>
-                        <br>
-                        <p>Nuestras guias de viajes</p>
-                     </div>
-                </div>
-
-                <div class="imagen__port">
-                    <img src="/assets/img/Nuestras_guias de viaje/guia6.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id odit voluptatem ea incidunt natus neque!</p>
-                        <br>
-                        <p>Nuestras guias de viajes</p>
-                     </div>
-                </div>
-                
+    <footer>
+        <div class="contenedor__fooder">
+            <div class="contenedor__info">
+                <h4>Telefono</h4>
+                <p>1256537253</p>
             </div>
-
-            <section class="clientes">
-                <div class="contenedor">
-                    <h3 class="titulo2">comentarios de nuestros clientes</h3>
-                    <h2 class="titulo3">sobre los lugares visitados</h2>   
-                    <div class="clientes__global"> 
-                        <div class="clientes__individual gradient">
-                            <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
-                            <div class="clientes__texto">
-                                <h4>usuario01</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, aut!</p>
-                            </div>
-                        </div>
-                        <div class="clientes__individual gradient">
-                            <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
-                            <div class="clientes__texto">
-                                <h4>usuario02</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, aut!</p>
-                            </div>
-                        </div>
-                        <div class="clientes__individual gradient">
-                            <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
-                            <div class="clientes__texto">
-                                <h4>usuario03</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, aut!</p>
-                            </div>
-                        </div>
-                        <div class="clientes__individual gradient">
-                            <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
-                            <div class="clientes__texto">
-                                <h4>usuario04</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, aut!</p>
-                            </div>
-                        </div>
-                        <div class="clientes__individual gradient">
-                            <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
-                            <div class="clientes__texto">
-                                <h4>usuario05</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, aut!</p>
-                            </div>
-                        </div>
-                        <div class="clientes__individual gradient">
-                            <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
-                            <div class="clientes__texto">
-                                <h4>usuario06</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, aut!</p>
-                            </div>
-                        </div>
-                    </div>
-        
-                </div>
-            </section>
-
+            <div class="contenedor__info">
+                <h4>Twitter</h4>
+                <img src="/assets/img/inicio/twitter.png" alt="">
+            </div>
+            <div class="contenedor__info">
+                <h4>Email</h4>
+                <p>1256537253</p>
+            </div>
+            <div class="contenedor__info">
+                <h4>Facebook</h4>
+                <img src="/assets/img/inicio/facebook.png" alt="">
+            </div>
+            <div class="contenedor__info">
+                <h4>Locacion</h4>
+                <p>1256537253</p>
+            </div>
+            <div class="contenedor__info">
+                <h4>Instagram</h4>
+                <img src="/assets/img/inicio/instagram.png" alt="">
+            </div>
         </div>
-
-    </section>
-</main>
-
-<footer>
-   <div class="contenedor__fooder">
-    <div class="contenedor__info">
-        <h4>Telefono</h4>
-        <p>1256537253</p>
-    </div>
-    <div class="contenedor__info">
-        <h4>Twitter</h4>
-        <img src="/assets/img/inicio/twitter.png" alt="">
-    </div>
-    <div class="contenedor__info">
-        <h4>Email</h4>
-        <p>1256537253</p>
-    </div>
-    <div class="contenedor__info">
-        <h4>Facebook</h4>
-        <img src="/assets/img/inicio/facebook.png" alt="">
-    </div>
-    <div class="contenedor__info">
-        <h4>Locacion</h4>
-        <p>1256537253</p>
-    </div>
-    <div class="contenedor__info">
-        <h4>Instagram</h4>
-        <img src="/assets/img/inicio/instagram.png" alt="">
-    </div>
-   </div>
-</footer>
+    </footer>
+    <script src="./assets/js/bloqueo.js"></script>
+    <script src="./assets/js/cerrarsesion.js"></script>
 </body>
+
 </html>

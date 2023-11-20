@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="header gradient_port">
         <div class="logo">
-           <img class="icono" src="/assets/img/inicio/logo.png" alt="">
+            <img class="icono" src="/assets/img/inicio/logo.png" alt="">
         </div>
         <div class="u_logeado">
-            <button class="cerrar gradient"><b>Cerrar Sesión</b></button>
+            <button class="cerrar gradient" id="logout"><b>Cerrar Sesión</b></button>
             <p class="Nom_usuario">Nom_Usuario</p>
         </div>
         <nav>
@@ -31,168 +33,182 @@
             </ul>
         </nav>
         <section class="header__texto">
-            <h1>Nombre</h1>
+            <h1>WorldWalk</h1>
             <h2>Ve y visita nuevos y fantasticos lugares </h2>
             <h4>Con nuestoros fantasticos fotografos y agencias de viajes</h4>
         </section>
-       <span class="barra"></span>
+        <span class="barra"></span>
     </header>
-<main>   
-    <section class="portafolio">
-        <div class="contenedor">
-            <h2 class="titulo">Las fotos mas destacadas</h2>
-            <div class="FotosLugares">
-                <div class="imagen__port">
-                    <h3 class="titulo2">Autor: Name</h3>
-                    <img src="/assets/img/nuestras_fotografias/foto7.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate?</p>
+    <main>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Las fotos mas destacadas</h2>
+                <div class="FotosLugares">
+                    <div class="imagen__port">
+                        <h3 class="titulo2">Autor: Richard Avedon</h3>
+                        <img src="/assets/img/nuestras_fotografias/foto7.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Una fotografia IMPRECIONANTE, muchos de nuestros clientes la descatan por su calidad y belleza.</p>
+                        </div>
+                    </div>
+                    <div class="imagen__port">
+                        <h3 class="titulo2">Autor: Vivian Maier</h3>
+                        <img src="/assets/img/nuestras_fotografias/foto8.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate?</p>
+                        </div>
+                    </div>
+                    <div class="imagen__port">
+                        <h3 class="titulo2">Autor: Anne Geddes</h3>
+                        <img src="/assets/img/nuestras_fotografias/foto9.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate?</p>
+                        </div>
+                    </div>
+                    <div class="imagen__port">
+                        <h3 class="titulo2">Autor: Steve McCurry</h3>
+                        <img src="/assets/img/nuestras_fotografias/foto10.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate?</p>
+                        </div>
                     </div>
                 </div>
-                <div class="imagen__port">
-                    <h3 class="titulo2">Autor: Name</h3>
-                    <img src="/assets/img/nuestras_fotografias/foto8.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate?</p>
+
+                <h3 class="titulo">Las maravillas del mundo</h3>
+                <div class="foto">
+                    <div class="foto__imagen">
+                        <img src="/assets/img/nuestras_fotografias/FOTO.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>En el corazón de la fotografía yaciendo la esencia de la serenidad, esta imagen captura
+                                la magia intemporal de un pintoresco pueblo. Las fachadas de colores vivos danzan bajo
+                                la luz dorada del atardecer, revelando una arquitectura que ha sido testigo de
+                                generaciones.</p>
+
+                            <p>Autor: Elliott Erwitt</p>
+                        </div>
                     </div>
                 </div>
-                <div class="imagen__port">
-                    <h3 class="titulo2">Autor: Name</h3>
-                    <img src="/assets/img/nuestras_fotografias/foto9.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate?</p>
+
+                <h2 class="titulo">Más fotografias</h2>
+                <div class="imagen">
+                    <div class="imagen__port">
+                        <img src="/assets/img/nuestras_fotografias/foto_prima1.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, magni.</p>
+                            <p>Autor: Name</p>
+                        </div>
                     </div>
-                </div>
-                <div class="imagen__port">
-                    <h3 class="titulo2">Autor: Name</h3>
-                    <img src="/assets/img/nuestras_fotografias/foto10.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate?</p>
+
+                    <div class="imagen__port">
+                        <img src="/assets/img/nuestras_fotografias/foto_prima2.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam impedit provident ullam,
+                                earum nobis reiciendis.</p>
+                            <p>Autor: Name</p>
+                        </div>
+                    </div>
+
+                    <div class="imagen__port">
+                        <img src="/assets/img/nuestras_fotografias/foto_prima3.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum minus assumenda.</p>
+                            <p>Autor: Name</p>
+                        </div>
+                    </div>
+
+                    <div class="imagen__port">
+                        <img src="/assets/img/nuestras_fotografias/foto_prima4.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.
+                            </p>
+                            <p>Autor: Name</p>
+                        </div>
+                    </div>
+
+                    <div class="imagen__port">
+                        <img src="/assets/img/nuestras_fotografias/foto1.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.
+                            </p>
+                            <p>Autor: Name</p>
+                        </div>
+                    </div>
+                    <div class="imagen__port">
+                        <img src="/assets/img/nuestras_fotografias/foto2.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.
+                            </p>
+                            <p>Autor: Name</p>
+                        </div>
+                    </div>
+                    <div class="imagen__port">
+                        <img src="/assets/img/nuestras_fotografias/foto3.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.
+                            </p>
+                            <p>Autor: Name</p>
+                        </div>
+                    </div>
+                    <div class="imagen__port">
+                        <img src="/assets/img/nuestras_fotografias/foto4.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.
+                            </p>
+                            <p>Autor: Name</p>
+                        </div>
+                    </div>
+                    <div class="imagen__port">
+                        <img src="/assets/img/nuestras_fotografias/foto5.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.
+                            </p>
+                            <p>Autor: Name</p>
+                        </div>
+                    </div>
+                    <div class="imagen__port">
+                        <img src="/assets/img/nuestras_fotografias/foto6.jpg" alt="">
+                        <div class="imagen__hover gradient">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.
+                            </p>
+                            <p>Autor: Name</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <h3 class="titulo">Las maravillas del mundo</h3>
-            <div class="foto">
-                <div class="foto__imagen">
-                    <img src="/assets/img/nuestras_fotografias/FOTO.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod obcaecati vitae aliquid. Quasi nulla magnam animi libero doloremque excepturi sapiente tempore corrupti harum incidunt quisquam ipsum vero distinctio, cum aperiam?</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod obcaecati vitae aliquid. Quasi nulla magnam animi libero doloremque excepturi sapiente tempore corrupti harum incidunt quisquam ipsum vero distinctio, cum aperiam?</p>
-                        <p>Autor: Name</p>
-                    </div>
-                </div>
+            </seccion>
             </div>
+    </main>
 
-            <h2 class="titulo">Más fotografias</h2>
-            <div class="imagen">
-                <div class="imagen__port">
-                    <img src="/assets/img/nuestras_fotografias/foto_prima1.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, magni.</p>
-                        <p>Autor: Name</p>
-                    </div>
-                </div>
-
-                <div class="imagen__port">
-                    <img src="/assets/img/nuestras_fotografias/foto_prima2.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam impedit provident ullam, earum nobis reiciendis.</p>
-                        <p>Autor: Name</p>
-                    </div>
-                </div>
-
-                <div class="imagen__port">
-                    <img src="/assets/img/nuestras_fotografias/foto_prima3.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum minus assumenda.</p>
-                        <p>Autor: Name</p>
-                        </div>
-                </div>
-
-                <div class="imagen__port">
-                    <img src="/assets/img/nuestras_fotografias/foto_prima4.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.</p>
-                        <p>Autor: Name</p>
-                        </div>
-                </div>
-            
-                <div class="imagen__port">
-                    <img src="/assets/img/nuestras_fotografias/foto1.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.</p>
-                        <p>Autor: Name</p>
-                        </div>
-                </div>
-                <div class="imagen__port">
-                    <img src="/assets/img/nuestras_fotografias/foto2.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.</p>
-                        <p>Autor: Name</p>
-                        </div>
-                </div>
-                <div class="imagen__port">
-                    <img src="/assets/img/nuestras_fotografias/foto3.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.</p>
-                        <p>Autor: Name</p>
-                        </div>
-                </div>
-                <div class="imagen__port">
-                    <img src="/assets/img/nuestras_fotografias/foto4.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.</p>
-                        <p>Autor: Name</p>
-                        </div>
-                </div>
-                <div class="imagen__port">
-                    <img src="/assets/img/nuestras_fotografias/foto5.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.</p>
-                        <p>Autor: Name</p>
-                        </div>
-                </div>
-                <div class="imagen__port">
-                    <img src="/assets/img/nuestras_fotografias/foto6.jpg" alt="">
-                    <div class="imagen__hover gradient">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti nisi laborum nobis.</p>
-                        <p>Autor: Name</p>
-                    </div>
-                </div>
+    <footer>
+        <div class="contenedor__fooder">
+            <div class="contenedor__info">
+                <h4>Telefono</h4>
+                <p>1256537253</p>
             </div>
-        </div>    
-    </seccion>        
-</div>
-</main>
-
-<footer>
-   <div class="contenedor__fooder">
-    <div class="contenedor__info">
-        <h4>Telefono</h4>
-        <p>1256537253</p>
-    </div>
-    <div class="contenedor__info">
-        <h4>Twitter</h4>
-        <img src="/assets/img/inicio/twitter.png" alt="">
-    </div>
-    <div class="contenedor__info">
-        <h4>Email</h4>
-        <p>1256537253</p>
-    </div>
-    <div class="contenedor__info">
-        <h4>Facebook</h4>
-        <img src="/assets/img/inicio/facebook.png" alt="">
-    </div>
-    <div class="contenedor__info">
-        <h4>Locacion</h4>
-        <p>1256537253</p>
-    </div>
-    <div class="contenedor__info">
-        <h4>instagram</h4>
-        <img src="/assets/img/inicio/instagram.png" alt="">
-    </div>
-   </div>
-</footer>
+            <div class="contenedor__info">
+                <h4>Twitter</h4>
+                <img src="/assets/img/inicio/twitter.png" alt="">
+            </div>
+            <div class="contenedor__info">
+                <h4>Email</h4>
+                <p>1256537253</p>
+            </div>
+            <div class="contenedor__info">
+                <h4>Facebook</h4>
+                <img src="/assets/img/inicio/facebook.png" alt="">
+            </div>
+            <div class="contenedor__info">
+                <h4>Locacion</h4>
+                <p>1256537253</p>
+            </div>
+            <div class="contenedor__info">
+                <h4>instagram</h4>
+                <img src="/assets/img/inicio/instagram.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/bloqueo.js"></script>
+    <script src="./assets/js/cerrarsesion.js"></script>
 </body>
+
 </html>
