@@ -95,3 +95,51 @@
 .aliados__individual h3{
     margin: 10px 0;
 }
+
+
+
+@media screen and (max-width:900px) {
+    .nosotros__contenedor{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nosotros .nosotros__texto{
+        width: 90%;
+        padding: 20px;
+    }
+
+    .person{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .person__info{
+        width: 90%;
+    }
+
+    .person__info:first-child{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .aliados__global{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .aliados__individual{
+        width: 100%;
+        text-align: center;
+    }
+
+    .aliados__individual:nth-child(1), .aliados__individual:nth-child(2){
+        margin-bottom: 60px;
+    }
+
+    .aliados__individual img{
+        width: 90%;
+    }
+}

@@ -165,25 +165,6 @@ a {
     color: var(--negro);
 }
 
-.barra {
-    width: 100%;
-    height: 0.625rem;
-    bottom: 0;
-    border-radius: 0.625rem;
-    position: absolute;
-    background: linear-gradient(to right, var(--colorRosa), var(--colorAzul));
-    animation: animate-1 4s linear infinite;
-}
-
-@keyframes animate-1 {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(100%);
-    }
-}
 
 footer {
     background: var(--negro);
@@ -217,12 +198,56 @@ footer {
     height: 6dvh;
 }
 
-@media screen and (max-width: 862px) {
-    .contenedo {
-        width: 100%;
-    }
-
-    .header {
-        width: 100%;
+@media screen and (max-width: 1005px) {
+    .icono{
+        margin: 5px 0 0 80%;
     }
 }
+
+@media screen and (max-width: 710px) {
+    .icono{
+        margin: 5px 0 0 70%;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .icono{
+        margin: 5px 0 0 60%;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .header__texto {
+        display: flex;
+        justify-content:end;
+    }
+    .contenedor__fooder {
+        display: grid;
+        grid-template-columns: 60px 60px 60px;
+    } 
+}
+
+@media screen and (max-width: 520px) {
+    .u_logeado {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Nom_usuario {
+       display: flex;
+       justify-content: end;
+    }    
+}
+
+@media screen and (max-width: 420px) {
+    
+    .contenedor__fooder {
+        display: grid;
+        grid-template-columns: 30px 30px 30px;
+        width: 100%;
+    }
+    
+}
+
+
+

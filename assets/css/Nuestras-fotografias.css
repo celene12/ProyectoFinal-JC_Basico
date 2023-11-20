@@ -31,3 +31,52 @@
 .foto:hover .imagen__hover{
     transform: scale(1);
 }
+
+
+
+@media screen and (max-width:1080px) {
+    .foto{
+        width: 90%;
+        height: 36.58rem;
+        margin: 0 0 0 3.5rem;
+    }
+
+    .foto__imagen{
+        width: 100%;
+        height: 40.58rem;
+    }
+
+    .foto img{
+        width: 100%;
+        height: 100%;
+    
+    }
+
+    .foto__imagen > img {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+}
+
+
+@media screen and (max-width:800px) {
+    .foto{
+        margin: 0 0 0 3.0rem;
+    }
+
+    .foto__imagen p{
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .foto{
+        margin: 0 0 0 2.0rem;
+    }
+
+    .foto__imagen p{
+        font-size: medium;
+    }
+}

@@ -15,7 +15,7 @@
 .clientes__individual{
     display:flex;
     width: 30%;
-    height: 18.75rem;
+    height: 20.5rem;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 0.313rem;
@@ -44,3 +44,40 @@
     text-align: center;
 }
 
+@media screen and (max-width:810px) {
+    .clientes__global{
+        width: 100%;
+    }
+
+    .clientes__individual{
+        display:flex;
+        flex-direction: initial;
+        width:  100%;
+        height: 8.775rem;
+    }
+
+    .clientes__individual:nth-child(1), .clientes__individual:nth-child(2){
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:510px) {
+    .clientes__global{
+        width: 100%;
+    }
+
+    .clientes__individual{
+        display:flex;
+        flex-direction: column;
+        width:  100%;
+        height: 15.775rem;
+    }
+
+    .clientes__individual:nth-child(1), .clientes__individual:nth-child(2){
+        margin-bottom: 20px;
+    }
+
+
+}

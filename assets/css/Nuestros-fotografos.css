@@ -4,3 +4,22 @@
     margin: 20px;
 }
 
+
+@media screen and (max-width:510px) {
+    
+    .person{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .person__info{
+        width: 90%;
+        height: 15.775rem;
+        flex-direction: column;
+    }
+
+    .person__info:first-child{
+        margin-bottom: 30px;
+    }
+
+}
