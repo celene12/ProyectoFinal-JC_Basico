@@ -50,7 +50,8 @@
                         un equipo apasionado y comprometido que cree en la magia de inmortalizar cada instante especial.
                     </p>
                     <h3>Los mejores viajes</h3>
-                    <p>WorldWalk, donde convertimos la exploración en una aventura, y cada destino se convierte en un capítulo
+                    <p>WorldWalk, donde convertimos la exploración en una aventura, y cada destino se convierte en un
+                        capítulo
                         emocionante en la historia de tus viajes. En el corazón de nuestra empresa se encuentra un
                         equipo apasionado de guías expertos, listos para compartir su amor por los destinos y hacer que
                         cada experiencia de viaje sea única.</p>
@@ -163,60 +164,84 @@
 
             </div>
         </section>
-        
+
         <section class="clientes">
             <div class="contenedor">
                 <h3 class="titulo2">comentarios de nuestros clientes</h3>
                 <h2 class="titulo3">sobre los lugares visitados</h2>
-                <div class="clientes__global">
-                    <div class="clientes__individual gradient">
-                        <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
-                        <div class="clientes__texto">
-                            <h4>Anita09Paternina</h4>
-                            <p>Las guías son muy completas, con información actualizada y práctica sobre los
-                                destinos.</p>
+                <br>
+                <div class="clientes__comentarios-div">
+                    <H3 class="clientes__comentarios-subttitle">¡Ingresa tu comentario!</H3>
+                    <br>
+                    <div class="clientes__comentarios-form">
+                        <textarea class="clientes__comentarios-input" id="input" name="message"
+                            placeholder="Ingresa aqui tu comentario, nos interesa saber tu opinion." filas="9">
+                             </textarea>
+                        <div class="clientes__comentarios-text">
+                        <h3 class="clientes__comentarios-restriccion" id="h3">
+                            <div id="span">0</div>/50(caracteres maximos)
+                        </h3>
                         </div>
                     </div>
-                    <div class="clientes__individual gradient">
-                        <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
-                        <div class="clientes__texto">
-                            <h4>JuanBravo</h4>
-                            <p>He comprado varias guías de viajes de esta empresa y me han sido muy útiles.</p>
-                        </div>
-                    </div>
-                    <div class="clientes__individual gradient">
-                        <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
-                        <div class="clientes__texto">
-                            <h4>MariaDelvalle</h4>
-                            <p> Me gustan mucho las recomendaciones de lugares, actividades, restaurantes y
-                                hoteles que hacen.</p>
-                        </div>
-                    </div>
-                    <div class="clientes__individual gradient">
-                        <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
-                        <div class="clientes__texto">
-                            <h4>PabloMarin</h4>
-                            <p>Estoy muy decepcionado con la guía de viajes que compré de esta empresa.</p>
-                        </div>
-                    </div>
-                    <div class="clientes__individual gradient">
-                        <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
-                        <div class="clientes__texto">
-                            <h4>LucianRuedo</h4>
-                            <p>Esta empresa ofrece unas guías de viajes muy originales y divertidas.</p>
-                        </div>
-                    </div>
-                    <div class="clientes__individual gradient">
-                        <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
-                        <div class="clientes__texto">
-                            <h4>MariaJose</h4>
-                            <p>Las guías son muy interactivas y personalizadas, con cuestionarios, juegos, retos
-                                y sorpresas.</p>
-                        </div>
+                    <div class="clientes__comentarios-buttom">
+                        <button type="submit" class="clientes__comentarios-submit" onclick="subirComentario()">
+                            Enviar
+                        </button>
                     </div>
                 </div>
 
             </div>
+        </section>
+        </div>
+        <div class="clientes__global">
+            <div class="clientes__individual gradient">
+                <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
+                <div class="clientes__texto">
+                    <h4 id="user">Anita09Paternina</h4>
+                    <p id="comentario">Las guías son muy completas, con información actualizada y práctica sobre los
+                        destinos.</p>
+                </div>
+            </div>
+            <div class="clientes__individual gradient">
+                <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
+                <div class="clientes__texto">
+                    <h4>JuanBravo</h4>
+                    <p>He comprado varias guías de viajes de esta empresa y me han sido muy útiles.</p>
+                </div>
+            </div>
+            <div class="clientes__individual gradient">
+                <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
+                <div class="clientes__texto">
+                    <h4>MariaDelvalle</h4>
+                    <p> Me gustan mucho las recomendaciones de lugares, actividades, restaurantes y
+                        hoteles que hacen.</p>
+                </div>
+            </div>
+            <div class="clientes__individual gradient">
+                <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
+                <div class="clientes__texto">
+                    <h4>PabloMarin</h4>
+                    <p>Estoy muy decepcionado con la guía de viajes que compré de esta empresa.</p>
+                </div>
+            </div>
+            <div class="clientes__individual gradient">
+                <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
+                <div class="clientes__texto">
+                    <h4>LucianRuedo</h4>
+                    <p>Esta empresa ofrece unas guías de viajes muy originales y divertidas.</p>
+                </div>
+            </div>
+            <div class="clientes__individual gradient">
+                <img src="/assets/img/Nuestras_guias de viaje/usuario.jpg" alt="">
+                <div class="clientes__texto">
+                    <h4>MariaJose</h4>
+                    <p>Las guías son muy interactivas y personalizadas, con cuestionarios, juegos, retos
+                        y sorpresas.</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
         </section>
 
         <section class="aliados">
@@ -289,6 +314,7 @@
     </footer>
     <script src="./assets/js/cerrarsesion.js"></script>
     <script src="./assets/js/ocultar.js"></script>
+    <script src="./assets/js/comentarios.js"></script>
     <script src="./assets/js/nombre.js"></script>
 </body>
 

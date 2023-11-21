@@ -212,7 +212,7 @@ footer {
 
 @media screen and (max-width: 710px) {
     .icono{
-        margin: 5px 0 0 60%;
+        margin: 5px 0 0 70%;
     }
 }
 
@@ -228,14 +228,16 @@ footer {
 }
 
 @media screen and (max-width: 520px) {
+
     .u_logeado {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     
     .Nom_usuario {
-       display: flex;
-       justify-content: end;
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
     }    
 }
 
