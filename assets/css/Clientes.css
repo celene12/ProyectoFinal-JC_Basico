@@ -76,8 +76,8 @@
 
 .clientes__comentarios-input {
     margin-left: 25%;
-    height: 50px;
-    width: 500px;
+    height: 3.125rem;
+    width: 31.25rem;
     border: 2px solid var(--colorRosa);
 }
 
@@ -88,6 +88,10 @@
 }
 
 @media screen and (max-width:810px) {
+
+    .clientes__comentarios-input{
+        width: 18.75rem;
+    }
     .clientes__global {
         width: 100%;
     }
@@ -108,6 +112,12 @@
 }
 
 @media screen and (max-width:510px) {
+
+    .clientes__comentarios-input{
+        width: 12.5rem;
+        margin-left: 25%;
+    }
+    
     .clientes__global {
         width: 100%;
     }
