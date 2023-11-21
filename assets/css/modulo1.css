@@ -1,9 +1,9 @@
-@import "/assets/css/index.css";
-@import "/assets/css/Nuestras-fotografias.css";
-@import "/assets/css/modulo2.css";
-@import "/assets/css/Clientes.css";
-@import "/assets/css/Nuestros-fotografos.css";
-@import "/assets/css/Registro.css";
+@import "./index.css";
+@import "./Nuestras-fotografias.css";
+@import "./modulo2.css";
+@import "./Clientes.css";
+@import "./Nuestros-fotografos.css";
+@import "./Registro.css";
 
 :root {
     --negro: black;
@@ -57,9 +57,9 @@ body {
     background: -webkit-linear-gradient(to left,
             var(--colorRosaClaro),
             var(--colorAzul)),
-        url(/assets/img/inicio/portada.jpg);
+        url(../img/inicio/portada.jpg);
     background: linear-gradient(to left, var(--colorRosaClaro), var(--colorAzul)),
-        url(/assets/img/inicio/portada.jpg);
+        url(../img/inicio/portada.jpg);
 }
 
 .header {

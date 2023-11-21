@@ -17,7 +17,7 @@ function subirComentario(){
     let usuario = JSON.parse(localStorage.getItem('UsuarioLogueado')) || false
     if(!usuario){
         alert("No estas registrado!, por favor registrase o iniciar sesión para dejar comentario.")
-        window.location.href = '/Registro.html'
+        window.location.href = 'Registro.html'
     }else{
         document.getElementById('user').style.marginTop = "-30px";
         document.getElementById('user').innerHTML = usuario.name;
