@@ -136,3 +136,16 @@
 
 
 }
+
+
+
+@media screen and (max-width:510px) {
+
+    .clientes__individual {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 20.775rem;
+    }
+
+}
